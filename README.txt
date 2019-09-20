@@ -1,13 +1,6 @@
-The program MakeLex.py only needs to be run if you want to change
-the lexicon entries in the file lexicon.txt. The file pickledlexicon 
-is created by the MakeLex.py program.
-
-There is a short Main test function at the bottom of the file
-NLPlib.py that uses the tokenizer and tagger.
-
-This software is licensed under the GPL (www.fsf.org). You can
-purchase an alternative license (LGPL) to use this software in
-non-GPL commercial products.
-
-Please see: http://www.fsf.org/licensing/licenses/index_html
-for details and contact me at: contact@jasonwiener.com
+Projects Requerments
+Your task is to split the tweets into sentences, tag them with a PoS tagger that we will provide, gather
+some feature information from each tweet, learn models, and use these to classify topics and sentiments.
+Sentiment analysis is an important, still emerging topic in computational linguistics in which we quantify
+subjective aspects of language. These can range from binary opinions in social media (as in this assignment)
+for marketing, to a spectrum of cognitive behaviours, to help diagnoses in health care.
